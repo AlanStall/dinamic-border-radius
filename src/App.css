@@ -1,0 +1,90 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+* button {
+  margin: 30px;
+}
+.container textarea {
+  position: absolute;
+  top: 25%;
+  bottom: 25%;
+  right: 25%;
+  left: 25%; 
+  
+  width: 50%;
+  height: 50%;
+    
+  padding: 40px;
+  margin: 0;
+  border-style: solid;
+  border-width: 5px;  
+  word-wrap: break-word;
+  
+  display: block;
+  align-items: center;
+  text-align: center;
+  line-height: 100px;  
+
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;    
+}
+#all-borders {  
+  width: 50%;
+  height: 15%;
+  position: absolute;
+  top: 5%;
+  right: 25%; 
+  text-align: center;  
+  font-size: 16px;
+  color: rgb(83, 83, 83);
+}
+.all-borders {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  top: 10%;
+  right: 45%; 
+  text-align: center;
+  word-wrap: break-word;
+}
+.input-top-left {  
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  top: 20%;
+  right: 80%; 
+  text-align: center;
+  word-wrap: break-word;
+}
+.input-top-right {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  top: 20%;    
+  left: 80%;
+  text-align: center;  
+}
+.input-bottom-left {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  bottom: 20%;    
+  right: 80%;
+  text-align: center;
+}
+.input-bottom-right {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  bottom: 20%;    
+  left: 80%;
+  text-align: center;
+}
