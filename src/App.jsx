@@ -37,7 +37,7 @@ export function App() {
           <textarea 
             row="10" 
             type="text" 
-            placeholder="Defina o quão arredondadas serão os cantos de cada borda"                
+            placeholder="Set how much rounded each corner will be"
           >          
           </textarea>
         </div>
